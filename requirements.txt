@@ -8,6 +8,3 @@ scikit-learn
 yfinance
 streamlit-autorefresh
 ta
-os
-sys
-datetime
