@@ -10,7 +10,8 @@ from utils.binance_data import get_binance_data
 from indicators.indicators import add_indicators
 import os
 
-st.write("Current Path:", os.getcwd())
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # ==========================
 # PBX Dashboard Login
 # ==========================
@@ -81,10 +82,33 @@ SYMBOLS = [
 ]
 
 TIMEFRAMES = {
-    "1H": {"model": "models/xgb_1h.pkl", "interval": "5m", "shift": 12, "name": "1 Hour"},
-    "4H": {"model": "models/xgb_4h.pkl", "interval": "15m", "shift": 16, "name": "4 Hours"},
-    "12H": {"model": "models/xgb_12h.pkl", "interval": "30m", "shift": 24, "name": "12 Hours"},
-    "24H": {"model": "models/xgb_24h.pkl", "interval": "1h", "shift": 24, "name": "24 Hours"}
+    "1H": {
+        "model": os.path.join(BASE_DIR, "models", "xgb_1h.pkl"),
+        "interval": "5m",
+        "shift": 12,
+        "name": "1 Hour"
+    },
+
+    "4H": {
+        "model": os.path.join(BASE_DIR, "models", "xgb_4h.pkl"),
+        "interval": "15m",
+        "shift": 16,
+        "name": "4 Hours"
+    },
+
+    "12H": {
+        "model": os.path.join(BASE_DIR, "models", "xgb_12h.pkl"),
+        "interval": "30m",
+        "shift": 24,
+        "name": "12 Hours"
+    },
+
+    "24H": {
+        "model": os.path.join(BASE_DIR, "models", "xgb_24h.pkl"),
+        "interval": "1h",
+        "shift": 24,
+        "name": "24 Hours"
+    }
 }
 
 # Static BTC Dependency (manual)
