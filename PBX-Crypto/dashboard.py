@@ -9,6 +9,39 @@ from streamlit_autorefresh import st_autorefresh
 from utils.binance_data import get_binance_data
 from indicators.indicators import add_indicators
 
+# ==========================
+# PBX Dashboard Login
+# ==========================
+
+PASSWORD = "PBXvip9045592026"
+
+if "authenticated" not in st.session_state:
+    st.session_state.authenticated = False
+
+if not st.session_state.authenticated:
+
+    st.title("🔐 PBX Dashboard Login")
+
+    password = st.text_input(
+        "Write your Password:",
+        type="password"
+    )
+
+    if st.button("Enter"):
+
+        if password == PASSWORD:
+            st.session_state.authenticated = True
+            st.rerun()
+
+        else:
+            st.error(
+                "❌ رمز عبور اشتباه است.\n\n"
+                "اگر دارای اشتراک ویژه هستید لطفاً دوباره از ربات تلگرام رمز عبور را دریافت کنید (password is not correct)"
+            )
+
+    st.stop()
+
+
 st.set_page_config(
     page_title="PBX Crypto AI",
     page_icon="📈",
