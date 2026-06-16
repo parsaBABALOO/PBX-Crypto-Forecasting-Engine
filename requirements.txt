@@ -3,6 +3,7 @@ pandas
 numpy
 joblib
 xgboost
+plotly
 scikit-learn
 yfinance
 streamlit-autorefresh
