@@ -8,7 +8,9 @@ from datetime import datetime
 from streamlit_autorefresh import st_autorefresh
 from utils.binance_data import get_binance_data
 from indicators.indicators import add_indicators
+import os
 
+st.write("Current Path:", os.getcwd())
 # ==========================
 # PBX Dashboard Login
 # ==========================
