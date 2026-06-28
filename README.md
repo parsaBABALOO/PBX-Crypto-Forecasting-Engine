@@ -46,22 +46,22 @@ Python 3.11 • XGBoost • pandas • numpy • ta • scikit-learn • streaml
 ## ⚡ Quick Start
 
 ### 1. Clone the repository
-`bash
-git clone https://github.com/YOUR_USERNAME/PBX-Crypto-Forecasting-Engine.git
+```bash
+git clone https://github.com/parsaBABALOO/PBX-Crypto-Forecasting-Engine.git
 cd PBX-Crypto-Forecasting-Engine
-
+```
 ### 2. Install dependencies
-`bash
+```bash
 pip install -r requirements.txt
-
+```
 ### 3. Run CLI prediction
-`bash
+```bash
 py -m prediction.predict
-
+```
 ### 4. Launch interactive dashboard
-`bash
+```bash
 streamlit run dashboard.py
-
+```
 🧪 Example Output (CLI)
 ===== PRO TRADING AI =====
 Coin: ETH-USD
@@ -80,9 +80,9 @@ Data Time: 2026-06-01 14:20:00
 📌 FINAL RECOMMENDATION: SELL 🔴
 
 🧪 Backtest
-`bash
+```bash
 py backtest.py
-
+```
 Output includes:
 
 · Win rate per symbol & timeframe
@@ -113,5 +113,6 @@ Developer: PARSA BABALOO
 Email: parsababalo1403@gmail.com
 Telegram Channel: @PBX_CRYPTO
 
+---
 ---
 ⭐ If this project helped you, please give it a star! ⭐
