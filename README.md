@@ -63,6 +63,7 @@ py -m prediction.predict
 streamlit run dashboard.py
 ```
 🧪 Example Output (CLI)
+```bash
 ===== PRO TRADING AI =====
 Coin: ETH-USD
 Current Price: 2133.89
@@ -78,6 +79,7 @@ Data Time: 2026-06-01 14:20:00
 🔥 AI Confidence: [████████████████████░░░░░░░░] 65%
 ==================================================
 📌 FINAL RECOMMENDATION: SELL 🔴
+```
 
 🧪 Backtest
 ```bash
@@ -113,6 +115,5 @@ Developer: PARSA BABALOO
 Email: parsababalo1403@gmail.com
 Telegram Channel: @PBX_CRYPTO
 
----
 ---
 ⭐ If this project helped you, please give it a star! ⭐
