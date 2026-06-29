@@ -5,7 +5,6 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-1.7+-orange.svg)](https://xgboost.ai/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8504/badge)](https://www.bestpractices.dev/projects/8504)
 
 ---
@@ -115,5 +114,20 @@ Developer: PARSA BABALOO
 Email: parsababalo1403@gmail.com
 Telegram Channel: @PBX_CRYPTO
 
+---
+
+## ⚠️ Proprietary Notice & Intellectual Property
+
+**Copyright (c) 2026. All rights reserved.**
+
+This repository contains proprietary source code, architecture designs, and visual assets. By accessing this repository, you agree to the following strict terms and conditions:
+
+* **Educational Use Only:** Permission is granted solely for personal learning, educational simulation, and code-review purposes.
+* **No Replication or Modification:** You may not copy, modify, alter, or create derivative works (such as apps, themes, or websites) based on this source code.
+* **No Redistribution:** You are strictly prohibited from redistributing, publishing, or sub-licensing this code or any part of it anywhere on the web, including other personal or public repositories.
+* **No Commercialization:** This project may not be used, directly or indirectly, for any commercial ventures, business operations, or portfolio claiming.
+* **No Re-branding:** Claiming this specific architecture, logic layout, or styling as your own authorship is legally actionable.
+
+*Failure to comply with these terms constitutes a direct breach of copyright law and intellectual property rights.*
 ---
 ⭐ If this project helped you, please give it a star! ⭐
