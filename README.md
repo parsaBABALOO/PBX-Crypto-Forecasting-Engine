@@ -112,6 +112,9 @@ Issues and pull requests are welcome. For major changes, please open an issue fi
 
 Developer: PARSA BABALOO
 Email: parsababalo1403@gmail.com
+
+Note: Any other contact information (including Telegram channels or usernames) associated with this project is not official and should be considered invalid or unrelated to the developer.
+
 Telegram Channel: @PBX_CRYPTO
 
 ---
